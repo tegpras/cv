@@ -1,0 +1,109 @@
+body{
+    background-color: #f4f5f6;
+    font-family: 'montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 125%;
+    color: #5a5a5a;
+}
+.wrapper{
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#galeri{
+    width: 1200px;
+    padding: 10px;
+    height: 775px;
+    background-color: white;
+    border-radius: 5px;
+    float: left;
+    margin: auto;
+    margin-top: 30px;
+    border: solid 1px lightgray;
+}
+#box1{
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+#box2{
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+#img_cv{
+    width: 700px;
+}
+#img1{
+    width: 75px;
+    float: left;
+}
+#garis{
+    width: 1px;
+    height: 40px;
+    background-color: white;
+    float: left;
+}
+#img2{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#judul{
+    text-align: left;
+    font-size: 60px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #212c5f;
+}
+#sub_judul{
+    text-align: left;
+    font-size: 60px;
+    color: #121212;
+    font-weight: 600;
+}
+#keterangan{
+    margin-top: 200px;
+}
+#created{
+    text-align: left;
+    color: black;
+}
+#nama{
+    display: flex;
+    justify-content: center;
+}
+#garis1{
+    margin-top: 150px;
+    width: 500px;
+    height: 5px;
+    background-color: #ffc91b;
+    float: right;
+}
+#garis2{
+    margin-top: 150px;
+    width: 100px;
+    height: 5px;
+    background-color: #212c5f;
+    float: right;
+}
+#lanjut{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 200px;
+}
+#p_lanjut{
+    background-color: #212c5f;
+    border-radius: 5px;
+    padding:10px;
+    color:white;
+    font-weight: bolder;
+}

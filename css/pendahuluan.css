@@ -1,0 +1,93 @@
+body{
+    background-color: #f4f5f6;
+    font-family: 'montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 125%;
+    color: #5a5a5a;
+}
+.wrapper{
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+#galeri{
+    width: 1140px;
+    padding: 20px 40px;
+    height: 610px;
+    background-color: white;
+    float: left;
+    margin: auto;
+    border: solid 1px lightgray;
+    border-top: none;
+    display: flex;
+}
+#atas{
+    margin-top: 25px;
+}
+#garis{
+    width: 20px;
+    height: 50px;
+    background-color: #ffc91b;
+    float: left;
+    margin-top: 15px;
+}
+#judul{
+    background-color: #212C5F;
+    width: 1200px;
+    height: 20px;
+    padding: 20px 11px 20px 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 0px;
+    border: solid 1px lightgray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#isi{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+        text-indent: 50px;
+}
+#tanggal{
+    text-align: right;
+    margin-right: 50px;
+}
+#ttd{
+    text-align: right;
+    margin-right: 100px;
+}
+#nama{
+    text-align: right;
+    margin-right: 50px;
+}
+#footer{
+    position: fixed;
+    width: 1200px;
+    margin-top: 650px;
+    padding: 10px;
+    height: 70px;
+    background-color: white;
+    border:solid 1px lightgray;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#lanjut{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#p_lanjut{
+    background-color: #212c5f;
+    border-radius: 5px;
+    padding:10px;
+    color:white;
+    font-weight: bolder;
+}
